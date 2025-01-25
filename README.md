@@ -1,2 +1,2 @@
-# scr9035.github.io
+# scottcriggs.github.io
 Personal Page of Scott. C. Riggs

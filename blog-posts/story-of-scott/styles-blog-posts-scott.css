@@ -1,0 +1,115 @@
+body {
+  background-color: #181818; /* Dark background color */
+  color: #e0e0e0; /* Light text color for contrast */
+  font-family: 'Roboto', sans-serif; /* Modern sans-serif font */
+  margin: 0;
+  line-height: 1.6;
+}
+
+article {
+  background-color: rgba(36, 36, 36, 0.8); /* Semi-transparent dark background for content sections */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+font-size: 2.5em;
+text-align: center;
+}
+
+h2 {
+font-size: 1.8em;
+}
+
+h3 {
+font-size: 1.4em;
+}
+
+a {
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 40px;
+}
+
+strong {
+  font-weight: 600;
+}
+.header{
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+.intro{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.scott-story-graph {
+  max-width: 800px;    /* Set maximum width */
+  width: 100%;         /* Make it responsive */
+  height: auto;        /* Maintain aspect ratio */
+  display: block;      /* Center the image */
+  margin: 2rem auto;   /* Add space above and below */
+  border-radius: 4px;  /* Optional: slightly rounded corners */
+}
+.planes-chains-orbits-poster {
+  max-width: 500px;    /* Set maximum width */
+  width: 100%;         /* Make it responsive */
+  height: auto;        /* Maintain aspect ratio */
+  display: block;      /* Center the image */
+  margin: 2rem auto;   /* Add space above and below */
+  border-radius: 4px;  /* Optional: slightly rounded corners */
+}
+.post-doc{
+  text-align: center;
+  margin-top: 20px;
+}
+.fisher-lab-xtals {
+  max-width: 70%;    /* Makes the image 10% of its original size */
+  height: auto;      /* Maintains aspect ratio */
+  display: block;    /* Centers the image */
+  margin: 2rem auto; /* Adds space above and below */
+}
+.hipster{
+  text-align: center;
+  margin-top: 20px;
+}
+.fb-nature{}
+/* Responsive Design - Adjust as needed */
+@media (max-width: 600px) {
+    article {
+        max-width: 95%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+}
